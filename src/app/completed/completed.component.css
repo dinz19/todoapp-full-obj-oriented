@@ -7,37 +7,37 @@ body{
  margin: 0;
 }
 form{
- max-width: 30em;
+ max-width: 3em;
  margin: 4em auto;
  position: relative;
- background: #f4f4f4;
  padding: 2em 3em;
 }
-form h1{
+ h1{
     font-family: "Raleway";
-    color:#F97300; 
+    color: darkgreen; 
 }
-form input[type=text]::placeholder{
+ input[type=text]::placeholder{
    font-family: "Raleway";
    color:#666; 
 }
-form .data{
+ .data{
     margin-top: 1em;
 }
-form .data li{
+ .data li{
  background: #fff;
  border-left: 4px solid #F97300;
  padding: 1em;
  margin: 1em auto;
  color: #666;
+ 
  font-family: "Raleway";
 }
-form .data li i{
+ .data li i{
     float: right;
     color: #888;
     cursor: pointer;
 }
-form .input-group-text{
+ .input-group-text{
     background: #F97300;
     border-radius: 50%;
     width: 5em;
@@ -58,7 +58,4 @@ form .form-control{
 }
 form .form-control:focus{
  box-shadow: 0;
-}
-a {
-    text-decoration: none;
 }

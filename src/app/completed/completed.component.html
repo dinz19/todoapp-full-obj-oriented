@@ -1,0 +1,17 @@
+
+<div class="container">
+		
+			<div class="form-group">
+			<h1 class="text-center ">Completed Tasks</h1>
+				
+			</div>
+			<div class="data">
+			<ul class="list-unstyled">
+				<!--<li  *ngFor="let todo of todoArray">{{todo}} <i (click)="deleteItem(todo)" class="material-icons">delete</i></li>-->
+				<li *ngFor="let todo of todos" > {{todo.task}} <i (click)="deleteItem(todo)" class="material-icons">delete</i></li>
+			</ul>
+		
+		</div> 
+	</div>
+
+	
